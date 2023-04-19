@@ -1,0 +1,50 @@
+:root {
+  --main-font: "Epilogue", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+pre {
+  font-family: inherit;
+  font-weight: inherit;
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 335px;
+  }
+}
