@@ -78,19 +78,34 @@
           <div class="swiper MySlider">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="./images/watch1-mobile-min.jpg" alt="watch 1" />
+                <img
+                  src="./images/slider/watch1-mobile-min.jpg"
+                  alt="watch 1"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="./images/watch2-mobile-min.jpg" alt="watch 2" />
+                <img
+                  src="./images/slider/watch2-mobile-min.jpg"
+                  alt="watch 2"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="./images/watch3-mobile-min.jpg" alt="watch 3" />
+                <img
+                  src="./images/slider/watch3-mobile-min.jpg"
+                  alt="watch 3"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="./images/watch4-mobile-min.jpg" alt="watch 4" />
+                <img
+                  src="./images/slider/watch4-mobile-min.jpg"
+                  alt="watch 4"
+                />
               </div>
               <div class="swiper-slide">
-                <img src="./images/watch5-mobile-min.jpg" alt="watch 5" />
+                <img
+                  src="./images/slider/watch5-mobile-min.jpg"
+                  alt="watch 5"
+                />
               </div>
             </div>
             <div class="swiper-buttons">
@@ -117,238 +132,850 @@
           />
         </div>
       </section>
+      <!-- =======================Hero================ -->
+      <!-- =======================About us================ -->
       <section>
-        <h2>About us</h2>
-        <div>
-          <pre>
+        <div class="container">
+          <h2>About us</h2>
+          <div>
+            <pre>
                 Welcome to our premium watch collection, where
                 luxury and style meet functionality and precision.
                 Our selection of timepieces embodies the very
                 best in Swiss craftsmanship and engineering,
                 ensuring that you'll always have a reliable and
                 stylish accessory on your wrist.
-            </pre
-          >
-          <pre>
+            </pre>
+            <pre>
                 At our premium watch collection, we believe that a
                 watch is more than just a timekeeping device &#8211; it's
                 a statement piece that reflects your personality
                 and style. So why settle for anything less than the
                 best? Browse our collection today and discover
                 the perfect watch for you.
-            </pre
-          >
+            </pre>
+          </div>
         </div>
       </section>
-      <section>
-        <h2>Catalog</h2>
-        <ul>
-          <li>
-            <div>
-              <img
-                src="./images/mobile-catalog/Cat-watch1-mobile-min.jpg"
-                alt="watch1"
-              />
-              <p>Tube Watch S42 Date Steel With Black Case</p>
-              <p>€395</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/mobile-catalog/Cat-watch2-mobile-min.jpg"
-                alt="watch2"
-              />
-              <p>Avondale Watch Police For Men</p>
-              <p>€800</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/mobile-catalog/Cat-watch3-mobile-min.jpg"
-                alt="watch3"
-              />
-              <p>Diver 300M Co‑Axial Master Chronometer Chronograph</p>
-              <p>€600</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/mobile-catalog/Cat-watch4-mobile-min.jpg"
-                alt="watch4"
-              />
-              <p>Diver 300M Co-Axial Master Chronometer</p>
-              <p>€1400</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/mobile-catalog/Cat-watch5-mobile-min.jpg"
-                alt="watch5"
-              />
-              <p>Taman Watch By Police For Men</p>
-              <p>€500</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/mobile-catalog/Cat-watch6-mobile-min.jpg"
-                alt="watch6"
-              />
-              <p>Malawi Watch Police For Men</p>
-              <p>€555</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/mobile-catalog/Cat-watch7-mobile-min.jpg"
-                alt="watch7"
-              />
-              <p>Diver 300M Co-Axial Master Chronometer</p>
-              <p>€1200</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/mobile-catalog/Cat-watch8-mobile-min.jpg"
-                alt="watch8"
-              />
-              <p>Greenlane Watch By Police For Men</p>
-              <p>€1000</p>
-            </div>
-          </li>
-        </ul>
-        <button type="button">Buy now</button>
+      <!-- =======================About us================ -->
+      <!-- =======================Catalog===================== -->
+      <section id="catalog" class="catalog">
+        <div class="container catalog-container">
+          <h2 class="catalog-heder">Catalog</h2>
+          <ul class="catalog-list">
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch1-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch1-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet-catalog/Cat-watch1-tablet.jpg       1x,
+                        ./images/tablet-catalog-2x/Cat-watch1-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile-catalog/Cat-watch1-mobile.jpg       1x,
+                        ./images/mobile-catalog-2x/Cat-watch1-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./images/mobile-catalog/Cat-watch1-mobile.jpg"
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch2-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch2-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet-catalog/Cat-watch2-tablet.jpg       1x,
+                        ./images/tablet-catalog-2x/Cat-watch2-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile-catalog/Cat-watch2-mobile.jpg       1x,
+                        ./images/mobile-catalog-2x/Cat-watch2-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./images/mobile-catalog/Cat-watch2-mobile.jpg"
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch3-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch3-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet-catalog/Cat-watch3-tablet.jpg       1x,
+                        ./images/tablet-catalog-2x/Cat-watch3-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile-catalog/Cat-watch3-mobile.jpg       1x,
+                        ./images/mobile-catalog-2x/Cat-watch3-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./images/mobile-catalog/Cat-watch3-mobile.jpg"
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch4-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch4-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet-catalog/Cat-watch4-tablet.jpg       1x,
+                        ./images/tablet-catalog-2x/Cat-watch4-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile-catalog/Cat-watch4-mobile.jpg       1x,
+                        ./images/mobile-catalog-2x/Cat-watch4-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./images/mobile-catalog/Cat-watch4-mobile.jpg"
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch5-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch5-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet-catalog/Cat-watch5-tablet.jpg       1x,
+                        ./images/tablet-catalog-2x/Cat-watch5-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile-catalog/Cat-watch5-mobile.jpg       1x,
+                        ./images/mobile-catalog-2x/Cat-watch5-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./images/mobile-catalog/Cat-watch5-mobile.jpg"
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch6-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch6-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet-catalog/Cat-watch6-tablet.jpg       1x,
+                        ./images/tablet-catalog-2x/Cat-watch6-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile-catalog/Cat-watch6-mobile.jpg       1x,
+                        ./images/mobile-catalog-2x/Cat-watch6-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./images/mobile-catalog/Cat-watch6-mobile.jpg"
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch7-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch7-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet-catalog/Cat-watch7-tablet.jpg       1x,
+                        ./images/tablet-catalog-2x/Cat-watch7-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile-catalog/Cat-watch7-mobile.jpg       1x,
+                        ./images/mobile-catalog-2x/Cat-watch7-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./images/mobile-catalog/Cat-watch1-mobile.jpg"
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch8-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch8-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet-catalog/Cat-watch8-tablet.jpg       1x,
+                        ./images/tablet-catalog-2x/Cat-watch8-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile-catalog/Cat-watch8-mobile.jpg       1x,
+                        ./images/mobile-catalog-2x/Cat-watch8-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 375px)"
+                    />
+                    <img
+                      src="./images/mobile-catalog/Cat-watch8-mobile.jpg"
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch9-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch9-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <img
+                      src="./images/desktop-catalog/Cat-watch9-desktop.jpg "
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch10-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch10-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <img
+                      src="./images/desktop-catalog/Cat-watch10-desktop.jpg "
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch11-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch11-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <img
+                      src="./images/desktop-catalog/Cat-watch11-desktop.jpg "
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+            <li class="catalog-link">
+              <div class="catalog-card">
+                <div class="catalog-photo">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop-catalog/Cat-watch12-desktop.jpg       1x,
+                        ./images/desktop-catalog-2x/Cat-watch12-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                    />
+                    <img
+                      src="./images/desktop-catalog/Cat-watch12-desktop.jpg "
+                      alt="Tube Watch S42 Date Steel With Black Case"
+                    />
+                  </picture>
+                  <div class="overlay">
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">Description</h3>
+                      <p class="overlay-text">
+                        Richly detailed with an understated design - the Police
+                        Men’s Greenlane watch.
+                      </p>
+                    </div>
+                    <div class="overlay-part">
+                      <h3 class="overlay-title">DETAILS & FEATUREStion</h3>
+                      <ul class="overlay-text">
+                        <li>Gender: man</li>
+                        <li>Size: 46x54.5mm</li>
+                        <li>Case Colour: Steel</li>
+                        <li>Band Material: Metal</li>
+                        <li>Case Material: Metal</li>
+                        <li>Features: Multifunction</li>
+                        <li>Water Resistant: 5 (ATM)</li>
+                        <li>Band Colour: Steel</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog-content">
+                  <p class="catalog-card-text">
+                    Tube Watch S42 Date Steel With Black Case
+                  </p>
+                  <p class="catalog-card-prise">€395</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <button class="catalog-btn" type="button">Buy now</button>
+        </div>
       </section>
+      <!-- ======================Catalog========================= -->
+      <!-- ======================New watches========================= -->
       <section>
-        <h2>New watches</h2>
-        <p>Green And Bronze—The Match Made In Heaven</p>
-        <a href=""
-          ><img
-            src="./images/mobile-sale-new/Rectangle 8-mobile-min.jpg"
-            alt="#"
-        /></a>
-        <a href=""
-          ><img
-            src="./images/mobile-sale-new/Rectangle 9-mobile-min.jpg"
-            alt="#"
-        /></a>
+        <div class="container">
+          <h2>New watches</h2>
+          <p>Green And Bronze—The Match Made In Heaven</p>
+          <a href=""
+            ><img
+              src="./images/mobile-sale-new/Rectangle 8-mobile-min.jpg"
+              alt="#"
+          /></a>
+          <a href=""
+            ><img
+              src="./images/mobile-sale-new/Rectangle 9-mobile-min.jpg"
+              alt="#"
+          /></a>
+        </div>
       </section>
+      <!-- ======================New watches========================= -->
+      <!-- ======================Sale========================= -->
       <section>
-        <article>
-          <h2>Sale</h2>
-          <div>
-            <img
-              src="./images/mobile-sale-new/sale-image 68-mobile-min.jpg"
-              alt="#"
-            />
-            <img
-              src="./images/mobile-sale-new/sale-image 67-mobile-min.jpg"
-              alt="#"
-            />
-            <img
-              src="./images/mobile-sale-new/sale-image 65-mobile-min.jpg"
-              alt="#"
-            />
-            <img
-              src="./images/mobile-sale-new/sale-image 66-mobile-min.jpg"
-              alt="#"
-            />
-            <img
-              src="./images/mobile-sale-new/sale-image 64-mobile-min.jpg"
-              alt="#"
-            />
-          </div>
-          <div>
-            <p>Greenlane Watch By Police For MenHT</p>
-            <p>Product tag: PEWJK2227003</p>
-            <p>€700<span>€1000</span></p>
-          </div>
-          <div>
-            <h3>Description</h3>
-            <pre>
-            Richly detailed with an understated design - the
-            Police Men’s Greenlane watch features a
-            versatile multifunction design that fits
-            effortlessly into work and play. The steel case is
-            adorned with a semi-transparent black dial. The
-            timepiece exhibits a contrast through a black IP
-            bracelet with matching crown and pushers.
-            </pre>
-          </div>
-          <div>
-            <h3>DETAILS & FEATUREStion</h3>
-            <pre>
-             Gender: man
-             Size: 46x54.5mm
-             Case Colour: Steel
-             Band Material: Metal
-             Case Material: Metal
-             Features: Multifunction
-             Water Resistant: 5 (ATM)
-             Band Colour: Steel
-            </pre>
-          </div>
-        </article>
+        <div class="container">
+          <article>
+            <h2>Sale</h2>
+            <div>
+              <img
+                src="./images/mobile-sale-new/sale-image 68-mobile-min.jpg"
+                alt="#"
+              />
+              <img
+                src="./images/mobile-sale-new/sale-image 67-mobile-min.jpg"
+                alt="#"
+              />
+              <img
+                src="./images/mobile-sale-new/sale-image 65-mobile-min.jpg"
+                alt="#"
+              />
+              <img
+                src="./images/mobile-sale-new/sale-image 66-mobile-min.jpg"
+                alt="#"
+              />
+              <img
+                src="./images/mobile-sale-new/sale-image 64-mobile-min.jpg"
+                alt="#"
+              />
+            </div>
+            <div>
+              <p>Greenlane Watch By Police For MenHT</p>
+              <p>Product tag: PEWJK2227003</p>
+              <p>€700<span>€1000</span></p>
+            </div>
+            <div>
+              <h3>Description</h3>
+              <pre>
+              Richly detailed with an understated design - the
+              Police Men’s Greenlane watch features a
+              versatile multifunction design that fits
+              effortlessly into work and play. The steel case is
+              adorned with a semi-transparent black dial. The
+              timepiece exhibits a contrast through a black IP
+              bracelet with matching crown and pushers.
+              </pre>
+            </div>
+            <div>
+              <h3>DETAILS & FEATUREStion</h3>
+              <pre>
+               Gender: man
+               Size: 46x54.5mm
+               Case Colour: Steel
+               Band Material: Metal
+               Case Material: Metal
+               Features: Multifunction
+               Water Resistant: 5 (ATM)
+               Band Colour: Steel
+              </pre>
+            </div>
+          </article>
+        </div>
       </section>
+      <!-- ======================Sale========================= -->
     </main>
+    <!-- ======================Foter========================= -->
     <footer>
-      <a href="./index.html">
-        <svg width="40px" height="40px">
-          <use href="./images/sprite.svg#logo-1"></use>
-        </svg>
-      </a>
-      <address>
-        <a class="" href="tel:+380684439426">+380 (68) 443-94-26</a>
+      <div class="container">
+        <a href="./index.html">
+          <svg width="40px" height="40px">
+            <use href="./images/sprite.svg#logo-1"></use>
+          </svg>
+        </a>
         <address>
+          <a class="" href="tel:+380684439426">+380 (68) 443-94-26</a>
           <pre>
             1678 S. Pioneer Road
             Salt Lake City
             UT 84104
-            </pre
-          >
+          </pre>
         </address>
-      </address>
-      <ul>
-        <li><a href="./index.html">About us</a></li>
-        <li><a href="">Catalog</a></li>
-        <li><a href="">sale</a></li>
-      </ul>
-      <ul>
-        <li>
-          <a href="" class="">
-            <svg class="" width="40" height="40">
-              <use href="./images/sprite.svg#facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="" class="">
-            <svg class="" width="40" height="40">
-              <use href="./images/sprite.svg#instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="" class="">
-            <svg class="" width="40" height="40">
-              <use href="./images/sprite.svg#youtube"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-      <p>©2022 The Watch Spot. All rights reserved.</p>
-      <div>
-        <a href="">Privacy Policy</a>
-        <a href="">Terms of Service</a>
+        <ul>
+          <li><a href="./index.html">About us</a></li>
+          <li><a href="">Catalog</a></li>
+          <li><a href="">sale</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href="" class="">
+              <svg class="" width="40" height="40">
+                <use href="./images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="">
+              <svg class="" width="40" height="40">
+                <use href="./images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="">
+              <svg class="" width="40" height="40">
+                <use href="./images/sprite.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p>©2022 The Watch Spot. All rights reserved.</p>
+        <div>
+          <a href="">Privacy Policy</a>
+          <a href="">Terms of Service</a>
+        </div>
       </div>
     </footer>
+    <!-- ======================Foter========================= -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".MySlider", {
