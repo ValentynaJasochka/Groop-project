@@ -32,13 +32,6 @@ body {
   font-family: "Epilogue", sans-serif;
   font-weight: 400;
 }
-pre {
-  font-family: inherit;
-  font-weight: inherit;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
 .container {
   position: relative;
   width: 100%;
@@ -80,18 +73,31 @@ pre {
   text-align: left;
   margin-bottom: 40px;
 }
-.catalog-photo {
+.catalog-card {
   position: relative;
-  margin-bottom: 14px;
   overflow: hidden;
+}
+.catalog-photo {
+  padding: 43px 30px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.photo {
+  display: block;
+}
+.like-heart {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+.heart-icon {
+  stroke: rgba(20, 20, 20, 0.1);
 }
 .overlay {
   position: absolute;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  width: 335px;
-  height: 360px;
   left: 0px;
   top: 0px;
   background: #1e2827;
@@ -106,6 +112,7 @@ pre {
   transform: scale(1);
 }
 .overlay-title {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.286;
   letter-spacing: -0.02em;
@@ -115,24 +122,30 @@ pre {
   margin-bottom: 10px;
 }
 .overlay-text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.286;
   letter-spacing: -0.01em;
   color: rgba(255, 255, 255, 0.5);
   text-align: left;
 }
-.overlay-text-second {
-  width: 162px;
-}
 .catalog-card-text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.286;
   letter-spacing: -0.02em;
   color: #141414;
   text-align: left;
   margin-bottom: 4px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 .catalog-card-prise {
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.167;
   letter-spacing: -0.02em;
@@ -148,7 +161,7 @@ pre {
   right: 0;
   bottom: 0;
   transform: translate(0, 0);
-
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.166;
   text-align: center;
@@ -214,9 +227,12 @@ pre {
   .catalog-card {
     width: calc((1176px - 24px * 3) / 4);
   }
+  .catalog-photo {
+    padding: 26px 0 25px 0;
+  }
   .overlay {
     width: 276px;
-  height: 325px;
+    height: 325px;
     padding: 20px;
   }
   .catalog-btn {
